@@ -1,0 +1,34 @@
+{
+  "name": "glad-router",
+  "version": "0.0.1",
+  "authors": [
+    "akihitofujiwara <a-fujiwara@glad-cube.com>"
+  ],
+  "description": "",
+  "main": [
+    "glad-router.html"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public",
+    "demo",
+    "src",
+    "components",
+    "index.js",
+    "build.js",
+    "package.json",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.3.1",
+    "iron-meta": "PolymerElements/iron-meta#~1.1.1",
+    "glad-prelude-ls": "~0.0.2",
+    "iron-page-url": "PolymerElements/iron-page-url#~0.7.3"
+  }
+}

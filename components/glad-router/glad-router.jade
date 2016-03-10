@@ -1,0 +1,10 @@
+link(rel="import" href="../../bower_components/polymer/polymer.html")
+link(rel="import" href="../../bower_components/iron-meta/iron-meta.html")
+link(rel="import" href="../../bower_components/iron-page-url/iron-page-url.html")
+link(rel="import" href="../../bower_components/glad-prelude-ls/glad-prelude-ls.html")
+
+dom-module#glad-router
+  template
+    template(is="dom-if" if="{{is_first_elm}}")
+      iron-page-url#url(path="{{path}}" hash="{{hash}}")
+    iron-meta#meta(type="glad-router")
